@@ -48,7 +48,7 @@ argon2 = { version = "0.4", default-features = false, features = ["alloc"] }
 base64ct = { version = "1", default-features = false }
 bitflags = "2"
 endian-num = "0.1"
-env_logger = { version = "0.11", optional = true }
+env_logger = { version = "0.11", optional = true, default-features = false }
 getrandom = { version = "0.4", optional = true }
 humansize = { version = "2", optional = true }
 libc = "0.2"
